@@ -56,6 +56,7 @@ Nuestro sesgo en particular, se remonta a la comparabilidad de las variables mon
 
 | Carpeta | Qué hay |
 |---------|---------|
+`z620_WorkFlow_06_DR_grupoA_semillerio`  Este notebook corre un metodo de drifting por vez (PARAM$DR$metodo) y evalua con 10 semillas.|
 | `new201/` | `NEW201_drift_10semillas` (corre las 9 configuraciones), `NEW201_wilcoxon_y_ensambles.R`, `NEW201_presentacion_final` (tablas y gráficos) |
 | `new202/` | `NEW202_mejoras_sobre_la_01`: lag3/lag6, medias móviles, grid ampliado y todo junto, comparados contra la 01 con Wilcoxon. **Sin resultados todavía** |
 Los `.R` son la fuente; los `.ipynb` se generan con `tools/build_ipynb.js` (kernel R).
